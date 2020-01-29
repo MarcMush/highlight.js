@@ -1,0 +1,35 @@
+@def author = "MarcMush"
+@def hascode = true
+@def hasmath = true
+
+# Title 1
+
+## Title 2
+
+
+@@important
+	Links to google : \\
+@@
+
+[Google](https://google.com)
+
+~~~
+<a href="https://google.com">Google</a>
+~~~
+
+
+## Title 3
+
+```julia:/assets/scripts/test
+for i in 1:4
+	println(i)
+end
+```
+
+\output{/assets/scripts/test}
+
+## Title 4
+
+Some maths $x=0$
+
+$$ \mathcal W_\psi[f] = \int_{\mathbb R} f(s)\psi(s)\mathrm{d}s $$
